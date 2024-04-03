@@ -1,0 +1,56 @@
+@import "vars.css";
+
+:root {
+  font-family: Raleway, Montserrat, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background: url("assets/background.png") no-repeat center center fixed;
+  background-size: 110vw 110vh;
+
+
+  overflow-x: hidden;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+
+a {
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #dad9d9;
+}
+
+
+h1 {
+  font-size: 65px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 35px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    background-size: auto 110vh;
+
+  }
+
+  body {
+    overflow: hidden;
+  }
+}

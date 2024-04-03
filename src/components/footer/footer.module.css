@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 260px;
+
+}
+
+@media (max-width: 800px) {
+    .footer {
+        gap: 22vw;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .footer {
+        gap: 2px;
+        width: 300px;
+    }
+}

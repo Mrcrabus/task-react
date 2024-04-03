@@ -1,0 +1,17 @@
+.gratitude {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 15%;
+    position: relative;
+    color: #FFFFFF;
+    height: 90%;
+    font-size: 24px;
+}
+
+.gratitude__logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
